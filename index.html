@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Climate Change</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="container">
+
+		<header>
+			<img src="headimg.jpg"  alt="headimg"/>
+			<span class="headtext">
+				<h1>Are humans the major cause of </br>global warming?</h1>
+				<div class="icon1" onclick="location.href='#title'">
+					<img src="icon1.png"  alt="icon1"/>
+				</div>
+			</span>
+		</header>
+
+		<div id="title">
+			<h1>The Average Rate of Climate Change </br> VS </br> The average Rate Of CO2 Emissions Change</h1>
+		</div>
+
+		<div class="worldmap" style="height=auto">
+		<img src="worldmap.jpg"  alt="worldmap" />
+		<span class="country">
+			<button id="london">LONDON</button>
+			<div id="londondata">
+					<img id="img" src="londondata.jpg" alt="error">
+				</div>
+		</span>
+	</div>
+
+	 <footer>
+		 &copy; Mengzhen Xiao 2018
+	 </footer>
+</div>
+
+	<script>
+			$(function() {
+					$("#london").click(function() {
+							$("#londondata").fadeIn("slow");
+					});
+
+					$("#londondata").click(function() {
+							$("#londondata").fadeOut("slow");
+					})
+
+			});
+	</script>
+
+
+
+	</body>
+</html>
