@@ -1,0 +1,1846 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99926, 40.759514]
+    },
+    "properties": {
+      "name": "229",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "11 AVENUE",
+      "CROSS_STREET_NAME": "WEST 40 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 86,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99595, 40.75898]
+    },
+    "properties": {
+      "name": "226",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "10 AVENUE",
+      "CROSS_STREET_NAME": "WEST 41 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 78,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99404, 40.72032]
+    },
+    "properties": {
+      "name": "51",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "BOWERY",
+      "CROSS_STREET_NAME": "DELANCEY STREET",
+      "OFF_STREET_NAME": "",
+      "number": 72,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.992615, 40.724136]
+    },
+    "properties": {
+      "name": "81",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "EAST HOUSTON STREET",
+      "CROSS_STREET_NAME": "BOWERY",
+      "OFF_STREET_NAME": "",
+      "number": 70,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.96434, 40.7606]
+    },
+    "properties": {
+      "name": "238",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "2 AVENUE",
+      "CROSS_STREET_NAME": "EAST 59 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 67,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99832, 40.760822]
+    },
+    "properties": {
+      "name": "239",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 42 STREET",
+      "CROSS_STREET_NAME": "11 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 67,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.000984, 40.752052]
+    },
+    "properties": {
+      "name": "182",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "10 AVENUE",
+      "CROSS_STREET_NAME": "WEST 30 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 64,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.96659, 40.76155]
+    },
+    "properties": {
+      "name": "246",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "3 AVENUE",
+      "CROSS_STREET_NAME": "EAST 59 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 60,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99308, 40.757828]
+    },
+    "properties": {
+      "name": "217",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 41 STREET",
+      "CROSS_STREET_NAME": "9 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 54,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9939358, 40.7589782]
+    },
+    "properties": {
+      "name": "225",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 42 STREET",
+      "CROSS_STREET_NAME": "DYER AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 52,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.000534, 40.71843]
+    },
+    "properties": {
+      "name": "35",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "CANAL STREET",
+      "CROSS_STREET_NAME": "LAFAYETTE STREET",
+      "OFF_STREET_NAME": "",
+      "number": 51,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.001434, 40.751446]
+    },
+    "properties": {
+      "name": "181",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 29 STREET",
+      "CROSS_STREET_NAME": "10 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 49,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9625151, 40.7631141]
+    },
+    "properties": {
+      "name": "251",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "2 AVENUE",
+      "CROSS_STREET_NAME": "EAST 63 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 49,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.00199, 40.75578]
+    },
+    "properties": {
+      "name": "201",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 34 STREET",
+      "CROSS_STREET_NAME": "11 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 48,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [40.760536, 11]
+    },
+    "properties": {
+      "name": "237",
+      "BOROUGH": "-73.95836",
+      "ON_STREET_NAME": "MANHATTAN",
+      "CROSS_STREET_NAME": "EAST 62 STREET",
+      "OFF_STREET_NAME": "YORK AVENUE",
+      "number": 47,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99548, 40.759624]
+    },
+    "properties": {
+      "name": "231",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 42 STREET",
+      "CROSS_STREET_NAME": "10 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 46,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99915, 40.75458]
+    },
+    "properties": {
+      "name": "192",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "10 AVENUE",
+      "CROSS_STREET_NAME": "WEST 34 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 43,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.998215, 40.755867]
+    },
+    "properties": {
+      "name": "202",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "10 AVENUE",
+      "CROSS_STREET_NAME": "WEST 36 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 43,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.004425, 40.742283]
+    },
+    "properties": {
+      "name": "114",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 16 STREET",
+      "CROSS_STREET_NAME": "9 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 42,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.00636, 40.722584]
+    },
+    "properties": {
+      "name": "72",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "CANAL STREET",
+      "CROSS_STREET_NAME": "VARICK STREET",
+      "OFF_STREET_NAME": "",
+      "number": 41,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9986, 40.7171]
+    },
+    "properties": {
+      "name": "23",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "CANAL STREET",
+      "CROSS_STREET_NAME": "MULBERRY STREET",
+      "OFF_STREET_NAME": "",
+      "number": 40,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99264, 40.758427]
+    },
+    "properties": {
+      "name": "223",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 42 STREET",
+      "CROSS_STREET_NAME": "9 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 40,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.95882, 40.75991]
+    },
+    "properties": {
+      "name": "233",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "EAST 61 STREET",
+      "CROSS_STREET_NAME": "YORK AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 40,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.96389, 40.761234]
+    },
+    "properties": {
+      "name": "243",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "EAST 60 STREET",
+      "CROSS_STREET_NAME": "2 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 40,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.00189, 40.719395]
+    },
+    "properties": {
+      "name": "44",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "BROADWAY",
+      "CROSS_STREET_NAME": "CANAL STREET",
+      "OFF_STREET_NAME": "",
+      "number": 39,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.94473, 40.783245]
+    },
+    "properties": {
+      "name": "258",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "EAST 96 STREET",
+      "CROSS_STREET_NAME": "1 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 39,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.992905, 40.71997]
+    },
+    "properties": {
+      "name": "50",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "CHRYSTIE STREET",
+      "CROSS_STREET_NAME": "DELANCEY STREET",
+      "OFF_STREET_NAME": "",
+      "number": 38,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99678, 40.72543]
+    },
+    "properties": {
+      "name": "86",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "BROADWAY",
+      "CROSS_STREET_NAME": "EAST HOUSTON STREET",
+      "OFF_STREET_NAME": "",
+      "number": 37,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.97589, 40.744778]
+    },
+    "properties": {
+      "name": "132",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "2 AVENUE",
+      "CROSS_STREET_NAME": "EAST 34 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 37,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.98568, 40.717926]
+    },
+    "properties": {
+      "name": "30",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "DELANCEY STREET",
+      "CROSS_STREET_NAME": "CLINTON STREET",
+      "OFF_STREET_NAME": "",
+      "number": 36,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.974945, 40.74608]
+    },
+    "properties": {
+      "name": "139",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "2 AVENUE",
+      "CROSS_STREET_NAME": "EAST 36 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 36,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.97584, 40.748863]
+    },
+    "properties": {
+      "name": "160",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "3 AVENUE",
+      "CROSS_STREET_NAME": "EAST 39 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 36,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.0047875, 40.7236259]
+    },
+    "properties": {
+      "name": "78",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "AVENUE OF THE AMERICAS",
+      "CROSS_STREET_NAME": "WATTS STREET",
+      "OFF_STREET_NAME": "",
+      "number": 35,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.994385, 40.758377]
+    },
+    "properties": {
+      "name": "222",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "DYER AVENUE",
+      "CROSS_STREET_NAME": "WEST 41 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 35,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.93089, 40.848118]
+    },
+    "properties": {
+      "name": "265",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "AMSTERDAM AVENUE",
+      "CROSS_STREET_NAME": "WEST 181 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 35,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.00407, 40.713135]
+    },
+    "properties": {
+      "name": "10",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "CENTRE STREET",
+      "CROSS_STREET_NAME": "CHAMBERS STREET",
+      "OFF_STREET_NAME": "",
+      "number": 34,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99029, 40.71918]
+    },
+    "properties": {
+      "name": "43",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "DELANCEY STREET",
+      "CROSS_STREET_NAME": "ALLEN STREET",
+      "OFF_STREET_NAME": "",
+      "number": 34,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.967545, 40.760254]
+    },
+    "properties": {
+      "name": "236",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "3 AVENUE",
+      "CROSS_STREET_NAME": "EAST 57 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 34,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.96062, 40.761486]
+    },
+    "properties": {
+      "name": "244",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "EAST 62 STREET",
+      "CROSS_STREET_NAME": "1 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 34,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.977196, 40.7643229]
+    },
+    "properties": {
+      "name": "253",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 57 STREET",
+      "CROSS_STREET_NAME": "AVENUE OF THE AMERICAS",
+      "OFF_STREET_NAME": "",
+      "number": 34,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9898, 40.757233]
+    },
+    "properties": {
+      "name": "212",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 42 STREET",
+      "CROSS_STREET_NAME": "8 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 33,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99686, 40.757732]
+    },
+    "properties": {
+      "name": "216",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 39 STREET",
+      "CROSS_STREET_NAME": "10 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 33,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.988205, 40.718555]
+    },
+    "properties": {
+      "name": "37",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "DELANCEY STREET",
+      "CROSS_STREET_NAME": "ESSEX STREET",
+      "OFF_STREET_NAME": "",
+      "number": 32,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.016464, 40.70509]
+    },
+    "properties": {
+      "name": "1",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST STREET",
+      "CROSS_STREET_NAME": "BATTERY PLACE",
+      "OFF_STREET_NAME": "",
+      "number": 31,
+      "CONTRIBUTING_FACTOR_VEHICLEs": "1.Following Too Closely 2.Driver Inattention/Distraction 3.Oversized Vehicle 4.Outside Car Distraction 5.Passenger Distraction 6.Passing or Lane Usage Improper 7.Backing Unsafely 8.Reaction to Other Uninvolved Vehicle 9.Passenger Distraction 10.Failure to Yield Right-of-Way"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99996, 40.718018]
+    },
+    "properties": {
+      "name": "32",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "CENTRE STREET",
+      "CROSS_STREET_NAME": "CANAL STREET",
+      "OFF_STREET_NAME": "",
+      "number": 31,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99821, 40.72106]
+    },
+    "properties": {
+      "name": "60",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "BROOME STREET",
+      "CROSS_STREET_NAME": "LAFAYETTE STREET",
+      "OFF_STREET_NAME": "",
+      "number": 31,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.94307, 40.84019]
+    },
+    "properties": {
+      "name": "261",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 165 STREET",
+      "CROSS_STREET_NAME": "FORT WASHINGTON AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 31,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9869481, 40.7560353]
+    },
+    "properties": {
+      "name": "204",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "7 AVENUE",
+      "CROSS_STREET_NAME": "WEST 42 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 30,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.996414, 40.75834]
+    },
+    "properties": {
+      "name": "221",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 40 STREET",
+      "CROSS_STREET_NAME": "10 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 30,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.96705, 40.760925]
+    },
+    "properties": {
+      "name": "241",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "3 AVENUE",
+      "CROSS_STREET_NAME": "EAST 58 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 30,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.95789, 40.761173]
+    },
+    "properties": {
+      "name": "242",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "YORK AVENUE",
+      "CROSS_STREET_NAME": "EAST 63 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 30,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.96343, 40.761856]
+    },
+    "properties": {
+      "name": "248",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "EAST 61 STREET",
+      "CROSS_STREET_NAME": "2 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 30,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.015915, 40.706657]
+    },
+    "properties": {
+      "name": "2",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST STREET",
+      "CROSS_STREET_NAME": "MORRIS STREET",
+      "OFF_STREET_NAME": "",
+      "number": 29,
+      "CONTRIBUTING_FACTOR_VEHICLEs": "1.Brakes Defective 2.Driver Inattention/Distraction 3.Reaction to Other Uninvolved Vehicle 4.Driver Inattention/Distraction 5.Failure to Yield Right-of-Way 6.Pavement 7.Following Too CloselySlippery 8.Lane Marking Improper/Inadequate 9.Unsafe Lane Changing 10.Passing or Lane Usage Improper"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99777, 40.716812]
+    },
+    "properties": {
+      "name": "22",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "CANAL STREET",
+      "CROSS_STREET_NAME": "MOTT STREET",
+      "OFF_STREET_NAME": "",
+      "number": 29,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.976746, 40.747627]
+    },
+    "properties": {
+      "name": "151",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "EAST 37 STREET",
+      "CROSS_STREET_NAME": "3 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 29,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.00234, 40.750206]
+    },
+    "properties": {
+      "name": "174",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 27 STREET",
+      "CROSS_STREET_NAME": "10 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 29,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99493, 40.75529]
+    },
+    "properties": {
+      "name": "198",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 37 STREET",
+      "CROSS_STREET_NAME": "9 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 29,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.994026, 40.756527]
+    },
+    "properties": {
+      "name": "208",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "9 AVENUE",
+      "CROSS_STREET_NAME": "WEST 39 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 29,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99711, 40.747204]
+    },
+    "properties": {
+      "name": "148",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "8 AVENUE",
+      "CROSS_STREET_NAME": "WEST 26 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 28,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99485, 40.750294]
+    },
+    "properties": {
+      "name": "176",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 31 STREET",
+      "CROSS_STREET_NAME": "8 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 28,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.997765, 40.75649]
+    },
+    "properties": {
+      "name": "206",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 37 STREET",
+      "CROSS_STREET_NAME": "10 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 28,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.961075, 40.760857]
+    },
+    "properties": {
+      "name": "240",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "1 AVENUE",
+      "CROSS_STREET_NAME": "EAST 61 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 28,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.992165, 40.71975]
+    },
+    "properties": {
+      "name": "47",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "DELANCEY STREET",
+      "CROSS_STREET_NAME": "FORSYTH STREET",
+      "OFF_STREET_NAME": "",
+      "number": 27,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9985, 40.745293]
+    },
+    "properties": {
+      "name": "134",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "8 AVENUE",
+      "CROSS_STREET_NAME": "WEST 23 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 27,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9841185, 40.7548409]
+    },
+    "properties": {
+      "name": "196",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 42 STREET",
+      "CROSS_STREET_NAME": "AVENUE OF THE AMERICAS",
+      "OFF_STREET_NAME": "",
+      "number": 27,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9997, 40.758915]
+    },
+    "properties": {
+      "name": "224",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 39 STREET",
+      "CROSS_STREET_NAME": "11 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 27,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.97076, 40.76161]
+    },
+    "properties": {
+      "name": "247",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "PARK AVENUE",
+      "CROSS_STREET_NAME": "EAST 57 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 27,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99103, 40.723648]
+    },
+    "properties": {
+      "name": "79",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "EAST HOUSTON STREET",
+      "CROSS_STREET_NAME": "CHRYSTIE STREET",
+      "OFF_STREET_NAME": "",
+      "number": 26,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99565, 40.7441]
+    },
+    "properties": {
+      "name": "128",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 23 STREET",
+      "CROSS_STREET_NAME": "7 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 26,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.98793, 40.75979]
+    },
+    "properties": {
+      "name": "232",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 46 STREET",
+      "CROSS_STREET_NAME": "8 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 26,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9988, 40.76015]
+    },
+    "properties": {
+      "name": "235",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 41 STREET",
+      "CROSS_STREET_NAME": "11 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 26,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.932335, 40.846153]
+    },
+    "properties": {
+      "name": "264",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 178 STREET",
+      "CROSS_STREET_NAME": "AMSTERDAM AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 26,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99544, 40.717278]
+    },
+    "properties": {
+      "name": "25",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "BOWERY",
+      "CROSS_STREET_NAME": "HESTER STREET",
+      "OFF_STREET_NAME": "",
+      "number": 25,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.993835, 40.718143]
+    },
+    "properties": {
+      "name": "33",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "CHRYSTIE STREET",
+      "CROSS_STREET_NAME": "GRAND STREET",
+      "OFF_STREET_NAME": "",
+      "number": 25,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.972206, 40.749825]
+    },
+    "properties": {
+      "name": "171",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "EAST 42 STREET",
+      "CROSS_STREET_NAME": "2 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 25,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.976715, 40.764996]
+    },
+    "properties": {
+      "name": "255",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "AVENUE OF THE AMERICAS",
+      "CROSS_STREET_NAME": "WEST 58 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 25,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.91707, 40.86369]
+    },
+    "properties": {
+      "name": "268",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 207 STREET",
+      "CROSS_STREET_NAME": "9 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 25,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.97446, 40.750763]
+    },
+    "properties": {
+      "name": "177",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "EAST 42 STREET",
+      "CROSS_STREET_NAME": "3 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 24,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99631, 40.753387]
+    },
+    "properties": {
+      "name": "186",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "9 AVENUE",
+      "CROSS_STREET_NAME": "WEST 34 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 24,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99057, 40.75619]
+    },
+    "properties": {
+      "name": "205",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "",
+      "CROSS_STREET_NAME": "",
+      "OFF_STREET_NAME": "625 8 AVENUE",
+      "number": 24,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99357, 40.757145]
+    },
+    "properties": {
+      "name": "211",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 40 STREET",
+      "CROSS_STREET_NAME": "9 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 24,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.97347, 40.763657]
+    },
+    "properties": {
+      "name": "252",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "5 AVENUE",
+      "CROSS_STREET_NAME": "EAST 58 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 24,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.91895, 40.86446]
+    },
+    "properties": {
+      "name": "269",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 207 STREET",
+      "CROSS_STREET_NAME": "10 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 24,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.98902, 40.718792]
+    },
+    "properties": {
+      "name": "38",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "DELANCEY STREET",
+      "CROSS_STREET_NAME": "LUDLOW STREET",
+      "OFF_STREET_NAME": "",
+      "number": 23,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.997406, 40.721447]
+    },
+    "properties": {
+      "name": "64",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "CLEVELAND PLACE",
+      "CROSS_STREET_NAME": "KENMARE STREET",
+      "OFF_STREET_NAME": "",
+      "number": 23,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99281, 40.7429]
+    },
+    "properties": {
+      "name": "119",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "AVENUE OF THE AMERICAS",
+      "CROSS_STREET_NAME": "WEST 23 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 23,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99517, 40.744762]
+    },
+    "properties": {
+      "name": "131",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "7 AVENUE",
+      "CROSS_STREET_NAME": "WEST 24 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 23,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9745, 40.74668]
+    },
+    "properties": {
+      "name": "144",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "EAST 37 STREET",
+      "CROSS_STREET_NAME": "2 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 23,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.997314, 40.757107]
+    },
+    "properties": {
+      "name": "210",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "10 AVENUE",
+      "CROSS_STREET_NAME": "WEST 38 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 23,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.000145, 40.758305]
+    },
+    "properties": {
+      "name": "219",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 38 STREET",
+      "CROSS_STREET_NAME": "11 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 23,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.937645, 40.812744]
+    },
+    "properties": {
+      "name": "259",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "5 AVENUE",
+      "CROSS_STREET_NAME": "EAST 135 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 23,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.956276, 40.813374]
+    },
+    "properties": {
+      "name": "260",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "AMSTERDAM AVENUE",
+      "CROSS_STREET_NAME": "WEST 125 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 23,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99482, 40.718456]
+    },
+    "properties": {
+      "name": "36",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "BOWERY",
+      "CROSS_STREET_NAME": "GRAND STREET",
+      "OFF_STREET_NAME": "",
+      "number": 22,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.98508, 40.75939]
+    },
+    "properties": {
+      "name": "228",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 47 STREET",
+      "CROSS_STREET_NAME": "BROADWAY",
+      "OFF_STREET_NAME": "",
+      "number": 22,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.97861, 40.762394]
+    },
+    "properties": {
+      "name": "249",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 54 STREET",
+      "CROSS_STREET_NAME": "AVENUE OF THE AMERICAS",
+      "OFF_STREET_NAME": "",
+      "number": 22,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.98856, 40.769115]
+    },
+    "properties": {
+      "name": "257",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "10 AVENUE",
+      "CROSS_STREET_NAME": "WEST 57 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 22,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9397674, 40.8410766]
+    },
+    "properties": {
+      "name": "263",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 168 STREET",
+      "CROSS_STREET_NAME": "BROADWAY",
+      "OFF_STREET_NAME": "",
+      "number": 22,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.937675, 40.848392]
+    },
+    "properties": {
+      "name": "266",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 178 STREET",
+      "CROSS_STREET_NAME": "BROADWAY",
+      "OFF_STREET_NAME": "",
+      "number": 22,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.98865, 40.72293]
+    },
+    "properties": {
+      "name": "74",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "EAST HOUSTON STREET",
+      "CROSS_STREET_NAME": "ALLEN STREET",
+      "OFF_STREET_NAME": "",
+      "number": 21,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.98719, 40.73329]
+    },
+    "properties": {
+      "name": "95",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "EAST 14 STREET",
+      "CROSS_STREET_NAME": "3 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 21,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.003975, 40.742863]
+    },
+    "properties": {
+      "name": "118",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 17 STREET",
+      "CROSS_STREET_NAME": "9 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 21,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99756, 40.74658]
+    },
+    "properties": {
+      "name": "143",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 25 STREET",
+      "CROSS_STREET_NAME": "8 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 21,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.977196, 40.74701]
+    },
+    "properties": {
+      "name": "145",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "EAST 36 STREET",
+      "CROSS_STREET_NAME": "3 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 21,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.00279, 40.74959]
+    },
+    "properties": {
+      "name": "168",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "10 AVENUE",
+      "CROSS_STREET_NAME": "WEST 26 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 21,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.00189, 40.750828]
+    },
+    "properties": {
+      "name": "178",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "10 AVENUE",
+      "CROSS_STREET_NAME": "WEST 28 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 21,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.9653, 40.759308]
+    },
+    "properties": {
+      "name": "227",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "2 AVENUE",
+      "CROSS_STREET_NAME": "EAST 57 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 21,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.96803, 40.759575]
+    },
+    "properties": {
+      "name": "230",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "3 AVENUE",
+      "CROSS_STREET_NAME": "EAST 56 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 21,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.96298, 40.762486]
+    },
+    "properties": {
+      "name": "250",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "EAST 62 STREET",
+      "CROSS_STREET_NAME": "2 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 21,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.94463, 40.84103]
+    },
+    "properties": {
+      "name": "262",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "RIVERSIDE DRIVE",
+      "CROSS_STREET_NAME": "WEST 165 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 21,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.00167, 40.709503]
+    },
+    "properties": {
+      "name": "6",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "PEARL STREET",
+      "CROSS_STREET_NAME": "FRANKFORT STREET",
+      "OFF_STREET_NAME": "",
+      "number": 20,
+      "CONTRIBUTING_FACTOR_VEHICLEs": "1.Driver Inattention/Distraction 2.Driver Inexperience 3.Pavement Defective 4.Passing or Lane Usage Improper 5.Failure to Yield Right-of-Way 6.Turning Improperly"
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.01334, 40.71523]
+    },
+    "properties": {
+      "name": "18",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST STREET",
+      "CROSS_STREET_NAME": "MURRAY STREET",
+      "OFF_STREET_NAME": "",
+      "number": 20,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.00253, 40.73975]
+    },
+    "properties": {
+      "name": "104",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 14 STREET",
+      "CROSS_STREET_NAME": "8 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 20,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99898, 40.74463]
+    },
+    "properties": {
+      "name": "130",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "8 AVENUE",
+      "CROSS_STREET_NAME": "WEST 22 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 20,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.001335, 40.74649]
+    },
+    "properties": {
+      "name": "142",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 23 STREET",
+      "CROSS_STREET_NAME": "9 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 20,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.00417, 40.74769]
+    },
+    "properties": {
+      "name": "152",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "10 AVENUE",
+      "CROSS_STREET_NAME": "WEST 23 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 20,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-74.00703, 40.74889]
+    },
+    "properties": {
+      "name": "161",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "11 AVENUE",
+      "CROSS_STREET_NAME": "WEST 23 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 20,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99905, 40.749638]
+    },
+    "properties": {
+      "name": "169",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 28 STREET",
+      "CROSS_STREET_NAME": "9 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 20,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.97606, 40.751442]
+    },
+    "properties": {
+      "name": "180",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "LEXINGTON AVENUE",
+      "CROSS_STREET_NAME": "EAST 42 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 20,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.99536, 40.75469]
+    },
+    "properties": {
+      "name": "194",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 36 STREET",
+      "CROSS_STREET_NAME": "9 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 20,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.997826, 40.7615]
+    },
+    "properties": {
+      "name": "245",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "11 AVENUE",
+      "CROSS_STREET_NAME": "WEST 43 STREET",
+      "OFF_STREET_NAME": "",
+      "number": 20,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.96162, 40.764362]
+    },
+    "properties": {
+      "name": "254",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "EAST 65 STREET",
+      "CROSS_STREET_NAME": "2 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 20,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.98289, 40.766712]
+    },
+    "properties": {
+      "name": "256",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 57 STREET",
+      "CROSS_STREET_NAME": "8 AVENUE",
+      "OFF_STREET_NAME": "",
+      "number": 20,
+      "CONTRIBUTING_FACTOR_VEHICLEs": ""
+    }
+  }, {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-73.939224, 40.848682]
+    },
+    "properties": {
+      "name": "267",
+      "BOROUGH": "MANHATTAN",
+      "ON_STREET_NAME": "WEST 178 STREET",
+      "CROSS_STREET_NAME": "FORT WASHINGT"
+    }
+  }]
+}

@@ -36,12 +36,32 @@ var times = [
   '23'
 ];
 
+// var numbers = [
+//   '20',//0
+//   '30',//1
+//   '40',//2
+//   '50',//3
+//   '60',//4
+//   '70',//5
+//   '80'//6
+// ];
+
+
 function filterBy(time) {
   //filter by time
   var filters = ['==', 'time', time];
   map.setFilter('allcircles', filters);
   document.getElementById('time').textContent = times[time] + ":00";
 }
+
+// function filterBy2(number) {
+//   //filter by number
+//   console.log(('number')/10);
+//   var filters = ['==', 'number', number/10];
+//   map.setFilter('topstreet', filters);
+//   document.getElementById('number').textContent = numbers[number/10-2]+'+';
+// }
+
 
 
 
@@ -66,6 +86,12 @@ map.on('load', function() {
       "type": "geojson",
       "data": data
     });
+
+    map.addSource("dataStreet", {
+      "type": "geojson",
+      "data": "data_topstreets.json"
+    });
+
     overViewMapShow();
 
     //click overview button, show first map
@@ -75,10 +101,27 @@ map.on('load', function() {
 
     $("#topinjuried").click(function() {
       $("#map-overlay").fadeOut();
+      $("#map-overlay2").fadeOut();
+      $("#streetview2").fadeOut();
       $("#map-overlay1").fadeIn();
+      $("#streetview").fadeIn();
       map.setLayoutProperty('allcircles', 'visibility', 'none');
+      map.setLayoutProperty('topstreet', 'visibility', 'none');
+      map.setLayoutProperty('topinjuried-labels', 'visibility', 'visible');
       topinjuried();
     }); //topinjuried button end
+
+    $("#topstreet").click(function() {
+      $("#map-overlay1").fadeOut();
+      $("#streetview").fadeOut();
+      $("#map-overlay").fadeOut();
+      $("#map-overlay2").fadeIn();
+      $("#streetview2").fadeIn();
+      map.setLayoutProperty('topinjuried', 'visibility', 'none');
+      map.setLayoutProperty('topinjuried-labels', 'visibility', 'none');
+      map.setLayoutProperty('allcircles', 'visibility', 'none');
+      topstreet();
+    }); //topstreet button end
 
 
   });
@@ -128,6 +171,7 @@ function overViewMapShow() {
       layers: ['allcircles']
     });
     console.log(features.length);
+      // $("#numberofcollions").html();
   });
 
   //mouse hover layer
@@ -172,7 +216,7 @@ function overViewMapShow() {
     }
 
     $("#details3").html("<br><p>Time: " + e.features[0].properties.DATEF + "</p><p>On Street Name: " + e.features[0].properties.ON_STREET_NAME + "</p><p>Cross Street Name: " +
-      e.features[0].properties.CROSS_STREET_NAME + "</p><p>Off Street Name: " + e.features[0].properties.OFF_STREET_NAME);
+      e.features[0].properties.CROSS_STREET_NAME + "</p><p>Off Street Name: " + e.features[0].properties.OFF_STREET_NAME+ '</p>');
 
   });
 
@@ -189,122 +233,187 @@ function overViewMapShow() {
 
 //   topinjuried map show function
 function topinjuried() {
-    map.addLayer({
-      'id': 'topinjuried',
-      'type': 'circle',
-      'source': 'dataname',
-      'paint': {
-        'circle-radius': [
-          'interpolate', ['linear'],
-          ['get', 'NUMBER_OF_PERSONS_INJURED'],
-          8, 10,
-          10, 14,
-          12, 16,
-          13, 20,
-          27, 40
-        ],
-        'circle-color': [
-          'interpolate', ['linear'],
-          ['get', 'NUMBER_OF_PERSONS_INJURED'],
-          8, '#ffeda0',
-          27, '#e34a33'
-        ],
-        'circle-opacity': [
-          'interpolate', ['linear'],
-          ['get', 'NUMBER_OF_PERSONS_INJURED'],
-          8, 0.4,
-          27, 0.7
-        ]
-      },
-      'filter': [">=", "NUMBER_OF_PERSONS_INJURED", 8]
-    });
+  map.addLayer({
+    'id': 'topinjuried',
+    'type': 'circle',
+    'source': 'dataname',
+    'paint': {
+      'circle-radius': [
+        'interpolate', ['linear'],
+        ['get', 'NUMBER_OF_PERSONS_INJURED'],
+        7, 10,
+        27, 40
+      ],
+      'circle-color': [
+        'interpolate', ['linear'],
+        ['get', 'NUMBER_OF_PERSONS_INJURED'],
+        7, '#ffeda0',
+        27, '#e34a33'
+      ],
+      'circle-opacity': [
+        'interpolate', ['linear'],
+        ['get', 'NUMBER_OF_PERSONS_INJURED'],
+        7, 0.4,
+        27, 0.7
+      ]
+    },
+    'filter': [">=", "NUMBER_OF_PERSONS_INJURED", 7]
+  });
 
-    map.addLayer({
-      'id': 'topinjuried-hover',
-      'type': 'circle',
-      'source': 'dataname',
-      'paint': {
-        'circle-radius': [
-          'interpolate', ['linear'],
-          ['get', 'NUMBER_OF_PERSONS_INJURED'],
-          0, 0,
-          1, 0,
-          2, 0,
-          3, 0,
-          4, 0,
-          5, 0,
-          6, 0,
-          7, 0,
-          8, 10,
-          9, 12,
-          10, 14,
-          12, 16,
-          13, 20,
-          27, 40
-        ],
-        'circle-color': [
-          'interpolate', ['linear'],
-          ['get', 'NUMBER_OF_PERSONS_INJURED'],
-          8, '#ffeda0',
-          11, '#feb24c',
-          27, '#e34a33'
-        ],
-        'circle-opacity': 1,
-        'circle-stroke-color': '#FF6666',
-        'circle-stroke-width': 4
-      },
-      'filter': ["==", "name", ""]
-    });
+  map.addLayer({
+    'id': 'topinjuried-hover',
+    'type': 'circle',
+    'source': 'dataname',
+    'paint': {
+      'circle-radius': [
+        'interpolate', ['linear'],
+        ['get', 'NUMBER_OF_PERSONS_INJURED'],
+        0, 0,
+        1, 0,
+        2, 0,
+        3, 0,
+        4, 0,
+        5,0,
+        6,0,
+        7, 10,
+        27, 40
+      ],
+      'circle-color': [
+        'interpolate', ['linear'],
+        ['get', 'NUMBER_OF_PERSONS_INJURED'],
+        7, '#ffeda0',
+        11, '#feb24c',
+        27, '#e34a33'
+      ],
+      'circle-opacity': 1,
+      'circle-stroke-color': '#FF6666',
+      'circle-stroke-width': 4
+    },
+    'filter': ["==", "name", ""]
+  });
 
 
-    map.addLayer({
-        'id': 'topinjuried-labels',
-        'type': 'symbol',
-        'source': 'dataname',
-        'layout': {
-            'text-field': ['concat', ['to-string', ['get', 'NUMBER_OF_PERSONS_INJURED']]],
-            'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
-            'text-size': [
-              'interpolate', ['linear'],
-              ['get', 'NUMBER_OF_PERSONS_INJURED'],
-              8, 12,
-              27, 24
-            ]
-        },
-        'paint': {
-            'text-color': '#ffffff'
-        },
-        'filter': [">=", "NUMBER_OF_PERSONS_INJURED", 8]
-    });
+  map.addLayer({
+    'id': 'topinjuried-labels',
+    'type': 'symbol',
+    'source': 'dataname',
+    'layout': {
+      'text-field': ['concat', ['to-string', ['get', 'NUMBER_OF_PERSONS_INJURED']]],
+      'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
+      'text-size': [
+        'interpolate', ['linear'],
+        ['get', 'NUMBER_OF_PERSONS_INJURED'],
+        7, 12,
+        28, 20
+      ]
+    },
+    'paint': {
+      'text-color': '#ffffff'
+    },
+    'filter': [">=", "NUMBER_OF_PERSONS_INJURED", 7]
+  });
 
-    //mouse hover effect
-    map.on("mousemove", "topinjuried", function(e) {
-      map.getCanvas().style.cursor = 'pointer';
-      map.setFilter("topinjuried-hover", ["==", "name", e.features[0].properties.name]);
-      $("#details4").html(e.features[0].properties.NUMBER_OF_PERSONS_INJURED + "  Injured");
-      $("#details5").html(e.features[0].properties.NUMBER_OF_PERSONS_KILLED + "  Killed");
-      $("#details6").html("<br><p>Time: " + e.features[0].properties.DATEF + "</p><p>On Street Name: " + e.features[0].properties.ON_STREET_NAME + "</p><p>Cross Street Name: " +
-        e.features[0].properties.CROSS_STREET_NAME + "</p><p>Off Street Name: " + e.features[0].properties.OFF_STREET_NAME);
-
-
-    });
-
-    // Reset the state-fills-hover layer's filter when the mouse leaves the layer.
-    map.on("mouseleave", "topinjuried", function() {
-      map.getCanvas().style.cursor = '';
-      map.setFilter("topinjuried-hover", ["==", "name", ""]);
-      $("#details4").html("");
-      $("#details5").html("");
-      $("#details6").html("");
-    });
+  //mouse hover effect
+  map.on("mousemove", "topinjuried", function(e) {
+    map.getCanvas().style.cursor = 'pointer';
+    map.setFilter("topinjuried-hover", ["==", "name", e.features[0].properties.name]);
+    $("#details4").html(e.features[0].properties.NUMBER_OF_PERSONS_INJURED + "  Injured");
+    $("#details5").html(e.features[0].properties.NUMBER_OF_PERSONS_KILLED + "  Killed");
+    $("#details6").html("<br><p>Time: " + e.features[0].properties.DATEF + "</p><p>On Street Name: " + e.features[0].properties.ON_STREET_NAME + "</p><p>Cross Street Name: " +
+      e.features[0].properties.CROSS_STREET_NAME + "</p><p>Off Street Name: " + e.features[0].properties.OFF_STREET_NAME+ "</p><p>Dtails: " +e.features[0].properties.CONTRIBUTING_FACTOR_VEHICLE1+'</p>');
 
 
-    //click show google street view
-    map.on('click', 'topinjuried-hover', function (e) {
-      console.log(e.features[0].geometry.coordinates[1]);
-      $("#streetview").html('<iframe width="350" height="250" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/streetview?key=AIzaSyCfO-x1m39bSqszx42hs-UZKBG_pwoLP-0&location='+e.features[0].geometry.coordinates[1]+','+e.features[0].geometry.coordinates[0]+'&heading=210&pitch=10&fov=35" allowfullscreen></iframe>');
+  });
 
-    });
+  // Reset the state-fills-hover layer's filter when the mouse leaves the layer.
+  map.on("mouseleave", "topinjuried", function() {
+    map.getCanvas().style.cursor = '';
+    map.setFilter("topinjuried-hover", ["==", "name", ""]);
+    $("#details4").html("");
+    $("#details5").html("");
+    $("#details6").html("");
+  });
 
 
+  //click show google street view
+  map.on('click', 'topinjuried-hover', function(e) {
+    console.log(e.features[0].geometry.coordinates[1]);
+    $("#streetview").html('<iframe width="350" height="250" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/streetview?key=AIzaSyCfO-x1m39bSqszx42hs-UZKBG_pwoLP-0&location=' + e.features[0].geometry.coordinates[1] + ',' + e.features[0].geometry.coordinates[0] + '&heading=210&pitch=10&fov=35" allowfullscreen></iframe>');
+  });
 }
+
+//topstreet show function
+function topstreet() {
+  map.addLayer({
+    'id': 'topstreet',
+    'type': 'circle',
+    'source': 'dataStreet',
+    'paint': {
+      'circle-radius': [
+        'interpolate', ['linear'],
+        ['get', 'number'],
+        20, 2,
+        90, 20
+      ],
+      'circle-color': [
+        'interpolate', ['linear'],
+        ['get', 'number'],
+        20, '#ffeda0',
+        90, '#e34a33'
+      ],
+      'circle-opacity': 0.7
+    }
+  });
+
+  map.addLayer({
+    'id': 'topstreet-hover',
+    'type': 'circle',
+    'source': 'dataStreet',
+    'paint': {
+      'circle-radius': [
+        'interpolate', ['linear'],
+        ['get', 'number'],
+        20, 2,
+        90, 20
+      ],
+      'circle-color': [
+        'interpolate', ['linear'],
+        ['get', 'number'],
+        20, '#ffeda0',
+        90, '#e34a33'
+      ],
+      'circle-opacity': 0.7,
+      'circle-stroke-color': '#FF6666',
+      'circle-stroke-width': 4
+    },
+    'filter': ["==", "name", ""]
+
+  });
+
+  //mouse hover effect
+  map.on("mousemove", "topstreet", function(e) {
+    map.getCanvas().style.cursor = 'pointer';
+    map.setFilter("topstreet-hover", ["==", "name", e.features[0].properties.name]);
+
+      $("#details7").html(e.features[0].properties.number + "  Collisions");
+      $("#details8").html("<br><p>On Street Name: " + e.features[0].properties.ON_STREET_NAME + "</p><p>Cross Street Name: " +
+      e.features[0].properties.CROSS_STREET_NAME + "</p><p>Off Street Name: " + e.features[0].properties.OFF_STREET_NAME+ '</p>');
+
+  });
+
+  // Reset the state-fills-hover layer's filter when the mouse leaves the layer.
+  map.on("mouseleave", "topstreet", function() {
+    map.getCanvas().style.cursor = '';
+    map.setFilter("topstreet-hover", ["==", "name", ""]);
+    $("#details7").html("");
+    $("#details8").html("");
+  });
+
+
+  //click show google street view
+  map.on('click', 'topstreet-hover', function(e) {
+    console.log(e.features[0].geometry.coordinates[1]);
+    $("#streetview2").html('<iframe width="350" height="250" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/streetview?key=AIzaSyCfO-x1m39bSqszx42hs-UZKBG_pwoLP-0&location=' + e.features[0].geometry.coordinates[1] + ',' + e.features[0].geometry.coordinates[0] + '&heading=210&pitch=10&fov=35" allowfullscreen></iframe>');
+  });
+
+}//function ends
