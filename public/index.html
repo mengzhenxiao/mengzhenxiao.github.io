@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    #map {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 75%;
+    }
+
+h1{
+  font-size: 40px;
+}
+
+    .introduction {
+      font-family: 'PT Sans Narrow', sans-serif;
+      position: fixed;
+      text-align: center;
+      z-index: 2;
+      background-color: #fff;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 25%;
+      height: 100%;
+      overflow: scroll;
+      padding: 25px;
+      color: #000;
+    }
+
+    .small{
+      font-family: 'PT Sans Narrow', sans-serif;
+      font-size: 12px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    a:link{
+      color: #000;
+    }
+
+    a:visited
+    {
+      color: #feb24c;
+    }
+
+  .button {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 16px;
+  margin-left:auto;
+  margin-right:auto;
+	width: 200px;
+	height: 35px;
+  border: none;
+	position: relative;
+	background-color:#feb24c;
+  color: #ffffff;
+	border-radius: 50px;
+	overflow: hidden;
+	cursor: pointer;
+	z-index: 1;}
+
+	.button:hover {
+		background-color: #e34a33;
+	}
+
+  .footer {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #9CA0AD;
+    font-size: 8px;
+    text-align: center;
+  }
+
+  </style>
+  <title>NYC Motor Vehicle Collisions In 2017</title>
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
+<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+</head>
+
+<body>
+  <style>
+    /* map1 */
+
+    /* time filter */
+
+    .map-overlay {
+      font: 12px/20px, Arial, Helvetica, sans-serif;
+      font-family: 'PT Sans Narrow', sans-serif;
+      color: #fff;
+      position: absolute;
+      width: 20%;
+      top: 0;
+      left: 0;
+      padding: 10px;
+      display: none;
+    }
+
+    .map-overlay .map-overlay-inner {
+      background-color: rgba(0, 0, 0, 0.5);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.20);
+      border-radius: 3px;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .map-overlay h2 {
+      color: #fff;
+      line-height: 24px;
+      display: block;
+      margin: 0 0 10px;
+    }
+
+    .map-overlay p {
+      color: #fff;
+      line-height: 18px;
+      display: block;
+      margin: 0 0 10px;
+    }
+
+    .map-overlay .legend .bar {
+      height: 10px;
+      width: 100%;
+      background: linear-gradient(to right, #ffeda0, #e34a33);
+    }
+
+    .map-overlay input {
+      background-color: transparent;
+      display: inline-block;
+      width: 100%;
+      position: relative;
+      margin: 0;
+      cursor: ew-resize;
+    }
+
+    #details1 {
+      color: #ffeda0;
+      font-size: 20px;
+    }
+
+    #details2 {
+      color: #e34a33;
+      font-size: 20px;
+    }
+
+
+    #details4 {
+      color: #ffeda0;
+      font-size: 20px;
+    }
+
+    #details5 {
+      color: #e34a33;
+      font-size: 20px;
+    }
+
+    #details7 {
+      color: #e34a33;
+      font-size: 20px;
+    }
+
+
+    #streetview {
+      position: absolute;
+      bottom: 0;
+      right: 50px;
+    }
+
+    #streetview2 {
+      position: absolute;
+      bottom: 0;
+      right: 50px;
+    }
+
+
+  </style>
+  <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v3.1.1/mapbox-gl-directions.js'></script>
+  <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v3.1.1/mapbox-gl-directions.css' type='text/css' />
+  <div class="introduction">
+    <h1>NYC Motor Vehicle Collisions In 2017</h1>
+    <p class="small">Data:
+      <a href="https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95/data" target="_blank" >NYC Open Data</a>
+      <br>
+      Mapping/Code: Mengzhen Xiao
+      <br>
+      <br>
+      <a href="https://mengzhenitpblog.wordpress.com/2018/04/30/impossible-maps-final-project/a" target="_blank" >See The Documentation</a>
+    </p>
+    <br>
+    <p>This is a breakdown of every collision in NYC in 2017 by location and injury.
+      Each record represents a collision.
+    </p>
+    <button name="overview" id="overview" class="button">Overview</button>
+    <br>
+    <br>
+    <p>In 2017, there were 30,023 collisions in NYC.
+      The most serious collision happened on May 18th, at the crossroad of 7 Avenue and West 42 Street,
+      which caused 1 person killed and 27 people injured.
+      (Click each circle to see Google Street View.)
+    </p>
+    <button name="topinjuried" id="topinjuried" class="button">Serious Accidents</button>
+    <br>
+    <br>
+    <p>To avoid future collisions, I highlight the locations where had more than 20 collisions in 2017.
+       The crossroad of 11 Avenue and West 40 Street had the most collisions, which was 86 collisions.
+       (The biggest circle on the map.)
+       As can be seen from the map, the accident-prone streets are mainly concentrated in 4 areas.
+       (Click each circle to see Google Street View.)
+    </p>
+    <button name="topstreet" id="topstreet" class="button">Accident-prone Streets</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p class="footer">© Copyright 2018 Mengzhen Xiao</p>
+    <br>
+
+
+  </div>
+
+
+  <div id='map'></div>
+
+<!-- overview map -->
+  <div class='map-overlay top' id="map-overlay">
+    <div class='map-overlay-inner'>
+      <h2>Filter By Time</h2>
+      <label id='time'></label>
+      <!-- <p>Number of Collisions: <span id="numberofcollions">4364</span></p> -->
+      <input id='slider2' type='range' min='0' max='23' step='1' value='0' />
+    </div>
+    <div class='map-overlay-inner'>
+      <div id='legend' class='legend'>
+        <div class='bar'></div>
+        <div>Number of Persons Injured</div>
+      </div>
+    </div>
+    <div class="map-overlay-inner">
+      <h2>Details</h2>
+      <div id="details1"></div>
+      <div id="details2"></div>
+      <div id="details3"></div>
+    </div>
+  </div>
+
+<!-- top injured map -->
+  <div class='map-overlay top' id="map-overlay1">
+    <div class="map-overlay-inner">
+      <h2>Serious Collisions</h2>
+      <div id="details4"></div>
+      <div id="details5"></div>
+      <div id="details6"></div>
+    </div>
+  </div>
+  <div id="streetview"></div>
+
+<!-- top street map -->
+<div class='map-overlay top' id="map-overlay2">
+  <div class='map-overlay-inner'>
+    <div id='legend2' class='legend'>
+      <h2>Number of Collisions</h2>
+      <div class='bar'></div>
+
+    </div>
+  </div>
+  <div class="map-overlay-inner">
+    <h2>Details</h2>
+    <div id="details7"></div>
+    <div id="details8"></div>
+    <div id="details9"></div>
+  </div>
+</div>
+<div id="streetview2"></div>
+
+
+  <script src='//d3js.org/d3.v3.min.js' charset='utf-8'></script>
+  <script src='script1.js'></script>
+
+</body>
+
+</html>
